@@ -15,11 +15,7 @@ img {
     max-width:100%;
 }
 
-img.displayed {
-    display: block;
-    margin: 0 auto;
 
-}
 
 hr {
     width: 100%;
@@ -38,26 +34,39 @@ a {
     width: 100%;
 }
 
+@media only screen and (max-width: 800px) {
+    .works{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 @media only screen and (min-width: 840px) {
-  .col-33 {
-    width: calc((100% - 20px)/2);
-  }
+    .col-33 {
+      width: calc((100% - 20px)/2);
+    }
 }
 
 @media only screen and (min-width: 1200px) {
-  .container {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    .container {
+      width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
-  .col-33 {
-    width: calc((100% - 20px)/3);
-  }
+    img.displayed {
+        display: block;
+        margin: 0 auto;
+    }
 
-  .col-33:last-of-type {
-    margin-right: 0;
-  }
+    .col-33 {
+      width: calc((100% - 20px)/3);
+    }
+
+    .col-33:last-of-type {
+      margin-right: 0;
+    }
 }
 
 .row {

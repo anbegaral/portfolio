@@ -1,2 +1,2 @@
 # portfolio
-Portfolio project for Udacity Nanodegree
+Portfolio project for showing my different works.
